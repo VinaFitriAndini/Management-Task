@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+    tools:context=".profileActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROFILE"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:fontFamily="@font/abril"
+        android:textColor="@color/black"
+
+        android:id="@+id/txt1"/>
+
+    <ImageView
+        android:id="@+id/gmbr1"
+        android:layout_width="173dp"
+        android:layout_height="167dp"
+        android:layout_below="@id/txt1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/profile" />
+
+
+    <Button
+        android:id="@+id/editprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gmbr1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:width="250dp"
+        android:background="@drawable/button_shape"
+        android:text="Edit Profile"
+        android:textSize="25sp" />
+
+
+    <Button
+        android:id="@+id/edittugas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gmbr1"
+        android:layout_marginTop="150dp"
+        android:width="250dp"
+        android:background="@drawable/button_shape"
+        android:layout_centerHorizontal="true"
+        android:text="Edit Tugas"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editprofile"
+        android:layout_marginTop="215dp"
+        android:width="250dp"
+        android:background="@drawable/button_shape"
+        android:layout_centerHorizontal="true"
+        android:text="Log Out"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gmbr1"
+        android:layout_marginTop="16dp"
+        android:text="Vina Fitri Andini"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>

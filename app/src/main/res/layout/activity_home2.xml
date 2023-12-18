@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+    tools:context=".HomeActivity2" >
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="106dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/abril"
+        android:text="To -Do List"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/kerja"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:width="200dp"
+        android:text="Kerja"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="380dp"
+        android:layout_height="146dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/kerja" />
+
+    <EditText
+        android:id="@+id/image1"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:width="200dp"
+        android:text="Pribadi"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/pribadi"
+        android:layout_width="376dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:src="@drawable/pribadi" />
+
+    <EditText
+        android:id="@+id/Image2"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470dp"
+        android:width="200dp"
+        android:text="Semua"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/semua"
+        android:layout_width="364dp"
+        android:layout_height="139dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="515dp"
+        android:src="@drawable/semua" />
+
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+    tools:context=".RegisterActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regristration"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:fontFamily="@font/libre"
+        android:textColor="@color/black"
+        android:id="@+id/txt1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:fontFamily="@font/libre"
+        android:textColor="@color/black"
+        android:id="@+id/txt_3"
+        android:layout_below="@+id/gmbr1"
+        android:layout_marginTop="35dp" />
+
+    <ImageView
+        android:id="@+id/gmbr1"
+        android:layout_width="115dp"
+        android:layout_height="136dp"
+        android:layout_below="@id/txt1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/profile" />
+
+    <LinearLayout
+        android:id="@id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_3"
+        android:layout_marginTop="-18dp"
+
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:fontFamily="@font/alef"
+            android:hint="Username"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:fontFamily="@font/alef"
+            android:hint="Your Email"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:fontFamily="@font/alef"
+            android:hint="Your Password"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:fontFamily="@font/alef"
+            android:hint="Confirm Password" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/next_1"
+        android:layout_width="96dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginRight="33dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/next" />
+
+</RelativeLayout>

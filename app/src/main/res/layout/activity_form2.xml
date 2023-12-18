@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+    tools:context=".formActivity2" >
+
+    <ImageView
+        android:id="@+id/form"
+        android:layout_width="143dp"
+        android:layout_height="128dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/form" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/abril"
+        android:layout_marginTop="30dp"
+        android:text="FORM"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/tugas"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@color/white"
+        android:fontFamily="@font/alef"
+        android:hint="Name Tugas"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/kategori"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:background="@color/white"
+        android:fontFamily="@font/alef"
+        android:hint="Kategori Tugas"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/batas"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:background="@color/white"
+        android:fontFamily="@font/alef"
+        android:hint="Batas Waktu"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/pengingat"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        android:background="@color/white"
+        android:fontFamily="@font/alef"
+        android:hint="Waktu Pengingat"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/catatan"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:background="@color/white"
+        android:fontFamily="@font/alef"
+        android:hint="Catatan"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/create1"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="610dp"
+        android:width="200dp"
+        android:text="Create"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>
